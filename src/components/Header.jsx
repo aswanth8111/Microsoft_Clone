@@ -16,13 +16,13 @@ function Header() {
             style={{ maxHeight: '100px',width:'50rem' }}
             navbarScroll
           >
-            <Nav.Link className='headtxt ps-5 ' href="#action2">Microsoft 365</Nav.Link>
-            <Nav.Link href="#action2" className='' >Teams</Nav.Link>
-            <Nav.Link href="#action2" >Capilot</Nav.Link>
-            <Nav.Link href="#action2" >Window</Nav.Link>
-            <Nav.Link href="#action2">Surface</Nav.Link>
-            <Nav.Link href="#action2">Xbox</Nav.Link>
-            <Nav.Link href="#action2">Support</Nav.Link>
+            <Nav.Link className='hd headtxt ps-5 ' href="#action2">Microsoft 365</Nav.Link>
+            <Nav.Link href="#action2" className='hd' >Teams</Nav.Link>
+            <Nav.Link href="#action2" className='hd'>Capilot</Nav.Link>
+            <Nav.Link href="#action2" className='hd'>Window</Nav.Link>
+            <Nav.Link href="#action2"className='hd'>Surface</Nav.Link>
+            <Nav.Link href="#action2" className='hd'>Xbox</Nav.Link>
+            <Nav.Link href="#action2" className='hd'>Support</Nav.Link>
             
             
           </Nav>

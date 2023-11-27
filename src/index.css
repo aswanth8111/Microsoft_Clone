@@ -65,12 +65,12 @@
   
 }
 
-.icon{
+/* .icon{
   padding-top: 5rem;
   padding-left: 15rem;
   padding-right: 15rem;
   padding-bottom: 5rem;
-}
+} */
 
 .icona{
   font-weight: 600;
@@ -138,4 +138,8 @@
 .end p{
   font-size: small;
   color: gray;
+}
+
+.hd:hover{
+  text-decoration: underline;
 }
