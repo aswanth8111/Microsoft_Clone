@@ -1,13 +1,141 @@
-body {
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  
+  /* overflow-x: hidden; */
+  /* width: 100%; */
+
+
+  
+}
+.log{
+  padding-top: 1rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .micro{
+  justify-content: space-between;
+} */
+
+.headtxt{
+  font-size: small;
+  font-weight: 400;
+}
+
+.search-btn{
+  
+  display: inline-block;
+  display: flex;
+}
+
+.caro1{
+  display: inline-block;  
+  display: flex;     
+}
+.row1{
+  padding-left: 9rem;
+  padding-top: 12rem;
+}
+.p1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.a1{
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.a2{
+  text-decoration: none;
+
+}
+.caro2{
+  padding-top: 12rem;
+  
+}
+
+.p2{
+  font-size: 0.9rem;
+  padding: 1rem;
+  margin: 0;
+  font-weight: bold;
+  
+  
+  
+}
+
+.icon{
+  padding-top: 5rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-bottom: 5rem;
+}
+
+.icona{
+  font-weight: 600;
+  
+
+}
+.iconb{
+  font-weight: 600;
+  
+}
+
+.cards{
+  width: 100%;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  gap: 0;
+}
+
+.card3{
+  padding-bottom: 3rem;
+}
+
+.card4{
+  padding-bottom: 1.5rem;
+}
+.line{
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.cardh{
+  font-size: 1.7rem;
+  font-weight: 607;
+}
+
+.txt1{
+  padding-bottom: 2rem;
+}
+
+/* .img3{
+  align-items: center;
+} */
+
+.lo{
+ font-weight: 499 
+}
+
+.bttn{
+  
+  float: right;
+  padding-right: 3rem;
+}
+
+.medhu li{
+  
+  padding-bottom: .5rem;
+  font-size: small;
+  color: gray;
+}
+.lii{
+  font-weight: 700;
+  
+}
+
+.end p{
+  font-size: small;
+  color: gray;
 }
