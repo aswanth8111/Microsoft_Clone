@@ -143,3 +143,7 @@
 .hd:hover{
   text-decoration: underline;
 }
+
+.im{
+  width: 100vw;
+}
