@@ -8,9 +8,9 @@ function Hero() {
   return (
     <Carousel controls={false} style={{ width: '100%' }}>
       <Carousel.Item interval={1000}>
-        <div>
+        <div >
           <Row className='caro1 g-0 p-0 m-0' >
-            <Col xs={12} lg={5} style={{ backgroundColor: 'skyblue' }} className='row1'>
+            <Col xs={12} lg={5} style={{ backgroundColor: 'skyblue', height:'55%'}} className='row1'>
               <div style={{ width: '100%', textAlign: 'left' }}>
                 <p className='p1 mb-3'>Maximise the everyday with Microsoft 365</p>
                 <p className='mb-3'>
@@ -33,7 +33,7 @@ function Hero() {
       <Carousel.Item interval={500}>
         <div>
           <Row className=' g-0'>
-            <Col  ><img className='im' src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP2-859x540" alt="" /></Col>
+            <Col  ><img className='imm' src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP2-859x540" alt="" /></Col>
             <Col  style={{ backgroundColor: 'rgba(242,242,242,255)' }} className='caro2 ' >
               <h1 style={{ textDecoration: 'none' }} className='ps-3'>Surface pro 9</h1>
               <p className='ps-3'>Tablet versatility and laptop power — all in one ultra-portable device</p>

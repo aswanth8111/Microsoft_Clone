@@ -30,11 +30,13 @@
 
 .caro1{
   display: inline-block;  
-  display: flex;     
+  display: flex;
+       
 }
 .row1{
   padding-left: 9rem;
   padding-top: 12rem;
+  padding-bottom: 7.7rem;
 }
 .p1{
   font-family: 'Roboto', sans-serif;
@@ -146,4 +148,5 @@
 
 .im{
   width: 100vw;
+  height: 55%;
 }
